@@ -1,5 +1,7 @@
 # pokemon-imges-classification-ETL-airflow 
 
+Create Your AWS Account to get AWS_access_key. 
+
 #OUTPUT
 
 ![Airflow_Image_download](https://user-images.githubusercontent.com/56861175/160588718-9fbd9e9e-2ffe-408e-9226-fca2f2017a09.jpg)
