@@ -116,7 +116,7 @@ def apply_dl_model():
         os.rename(process_dir+"/"+filename,process_dir+"/"+prediction_label +filename)
 
 def save_result():
-    clients3 = boto3.client('s3', region_name='ap-south-1', aws_access_key_id='AKIA2POWDGCMXTEFDDSP', aws_secret_access_key='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')
+    clients3 = boto3.client('s3', region_name='ap-south-1', aws_access_key_id=' ', aws_secret_access_key=' ')
     print("hello")
     for i, filename in enumerate(os.listdir(process_dir)):
         predict_label,img=tuple(filename.split("_",1))
